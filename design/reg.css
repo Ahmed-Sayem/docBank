@@ -1,0 +1,118 @@
+
+  #typing {
+            margin-left: 100%;
+              float: left;
+              font-family: sans-serif;
+              font-weight:bold;
+              font-size: 70px;
+              overflow: hidden;
+              white-space: nowrap;
+              animation: typing 5s steps(22) 1s infinite alternate;
+          }
+  #typing span
+          {
+ 
+              color:#f8f5f1;
+          }
+
+  #crow {
+
+              float: left;
+              color: black;
+              font-family: consolas;
+              font-weight:bold;
+              font-size: 90px;
+              animation: crow 0.3s linear 0s infinite;
+        }
+  @keyframes typing
+        {
+              from {
+                        width: 200ch;
+                    }
+              to    {
+                        width: 25ch;
+                    }
+        }
+  @keyframes crow
+        {
+              from {
+                      opacity: 0;
+                   }
+              to   {
+                      opacity: 1;
+                   }
+        }
+
+.container{
+  border-radius: 15px ;
+  background-color:  #fa9905;
+  box-shadow:  7px 9px 12px black;
+  width:500px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:15px;
+  opacity: 0.9;
+}
+.container form{
+  font-size: 25px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px ;
+  background-color: #f5f7b2;
+  color: black;
+}
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px ;
+  background-color: #f5f7b2;
+  color: black;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px ;
+  background-color: #f5f7b2;
+  color: black;
+}
+.button {
+      background-color: #f21170;
+      color: white;
+      padding-top: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom:10px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+}
+
+.button:hover {
+      background-color:#00ff80;
+      color: Black;
+}
+
+.bt {
+      border-radius: 10px ;
+}
+
+
+
+
+
+
+
+
